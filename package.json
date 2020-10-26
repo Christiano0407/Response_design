@@ -1,0 +1,19 @@
+{
+  "name": "response_design",
+  "version": "1.0.0",
+  "description": "\"Proyect_response\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Response_design.git"
+  },
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Response_design/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Response_design#readme"
+}
