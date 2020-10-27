@@ -157,11 +157,13 @@ background-repeat: no-repeat;
     height: 250px;
     margin: 0 auto;
 }
-.currency-table--container table {
+.currency-table--container table,
+.comission-table--container table {
     width: 100%;
     height: 100%;
 }
-.currency-table--container td {
+.currency-table--container td,
+.comission-table--container td {
     width: 50%;
     font-size: 1.6rem;
     font-weight: 500;
@@ -169,19 +171,24 @@ background-repeat: no-repeat;
     color: var(--black);
     background-color: var(--just-white);
 }
-.currency-table--container .table__top-left {
+.currency-table--container .table__top-left,
+.comission-table--container .table__top-left {
     border-radius: 15px 0 0 0;
 }
-.currency-table--container .table__top-right {
+.currency-table--container .table__top-right,
+.comission-table--container .table__top-right {
     border-radius: 0 15px 0 0;
 }
-.currency-table--container .table__bottom-left {
+.currency-table--container .table__bottom-left,
+.comission-table--container .table__bottom-left {
     border-radius: 0 0 0 15px;
 }
-.currency-table--container .table__bottom-right {
+.currency-table--container .table__bottom-right,
+.comission-table--container .table__bottom-right {
     border-radius: 0 0 15px 0;
 }
-.currency-table--container .table__right {
+.currency-table--container .table__right,
+.comission-table--container .table__right {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
@@ -206,4 +213,28 @@ background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+/* grid */
+.main-comission-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "inter", sans-serif;
+}
+.main-comission-table .comission-table--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+.comission-table--container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
