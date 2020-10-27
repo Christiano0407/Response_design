@@ -238,3 +238,20 @@ background-repeat: no-repeat;
     margin: 0 auto;
     border-radius: 15px;
 }
+.currency-table--date,
+.comission-table--date {
+    width: 190px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p,
+.comission-table--date p {
+    margin: 7px;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    font-weight: 300;
+}
