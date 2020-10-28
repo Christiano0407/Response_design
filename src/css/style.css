@@ -463,5 +463,28 @@ font-size: 1.2rem;
 color: var(--grey);
 }
 .cta {
+width: 150px;
+height: 48px;
+margin-top: 20px;
+background-color: var(--just-white);
+border: solid 3px var(--bitcoin-orange);
+border-radius: 5px;
+font-size: 1.4rem;
+font-weight: bold;
+line-height: 1.8rem;
+color: var(--black);
+font-family:"DM Sans", sans-serif;
 
+}
+.cta span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icons/orange-right-arrow.svg");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    vertical-align: text-bottom;
 }
