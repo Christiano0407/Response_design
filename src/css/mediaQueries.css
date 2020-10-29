@@ -19,3 +19,19 @@ html {
     font-size: 62.5%;
     font-family:"DM Sans", sans-serif;
 }
+.main-tables-container {
+     display: flex; 
+    /* flex-wrap: wrap; */
+    width: 930px;
+    margin: 0 auto;
+}
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+     overflow: hidden;  /* quitar el scroll */
+}
