@@ -425,10 +425,10 @@ line-height: 1.8rem;
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 290px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 20px 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--off-white);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
@@ -443,7 +443,7 @@ line-height: 1.8rem;
     padding: 6px;
     color: var(--just-white);
     font-size: 1.4rem;
-    left:calc(25%);
+    left:calc(30%);
     top: -15px;
     display: flex;
     justify-content: center;
@@ -498,4 +498,33 @@ font-family:"DM Sans", sans-serif;
     background-repeat: no-repeat;
     margin-left: 10px;
     vertical-align: text-bottom;
+}
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    display: flex;
+}
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.left li {
+    margin: 10px 0;
+}
+.left li a {
+    color: var(--just-white);
+    text-decoration: none;
+}
+footer .right img {
+ margin: 10px;
 }
