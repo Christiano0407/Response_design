@@ -1,4 +1,6 @@
 # Response_design Mobile
+Build first responsive design Mobile. 
+
 # Responsive Design Mobile and Desktop.
 
 # Proyect Response for course of Platzi Mobile First. 
